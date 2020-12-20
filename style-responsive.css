@@ -1,0 +1,200 @@
+@media screen and (max-width: 1145px) {
+
+	/* Hébergements à Marseille + Les plus poulaires tablette */
+
+	#hebergements-populaires {
+	display: flex;
+	flex-direction: column-reverse;
+	}
+
+	#les-populaires {
+		width: auto;
+		margin-bottom: 40px;
+	}
+
+	#hebergements-marseille {
+		width: auto;
+	}
+
+	/* Les populaires */
+
+	#les-populaires-dispos {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	.galerie-2 {
+    	width: 29%;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+
+	/* Activité */
+
+	.galerie-3 {
+    	width: 46%; 
+    	margin-bottom: 25px;
+	}
+
+	.galerie-3-double {
+    	width: 46%; 
+    	margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 935px) {
+
+	/* Filtre */
+
+	#filtres {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 935px) {
+
+	/* Footer */
+
+	footer {
+		justify-content: center;
+	}
+
+	#f-propos {
+    margin-right: 65px;
+	}
+
+#f-hebergement {
+    margin-right: 65px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+	#header {
+		display: none;
+	}
+
+	#header-mobile {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#banniere-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+
+	#menu-mobile {
+		margin-left: -25px;
+    	margin-right: -25px;
+	}
+
+	nav ul {
+		justify-content: space-around;
+		padding: 0;
+		border-bottom: 3px solid #f2f2f2;
+		padding-bottom: 15px;
+	}
+
+	nav a:hover {
+	border-top: none;
+	border-bottom: 3px solid #0065FC;
+	padding-bottom: 15px;
+	}
+
+	/* Search */
+
+	#form-desktop {
+		display: none;
+	}
+
+	#form-mobile {
+		display: flex;
+	}
+
+	.fa-search-location {
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #0065FC;
+	color: #ffffff;
+	font-size: 17px;
+	cursor: pointer;
+	}
+
+	button {
+		margin-left: -30px;
+	}
+
+	/* Hébergements à Marseille + Les plus poulaires mobile */
+
+	#hebergements-populaires {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-right: -25px;
+	margin-left: -25px;
+	}
+
+	/* Les plus poulaires mobile */
+
+	#les-populaires {
+    width: auto;
+    margin-bottom: 0;
+    border-radius: 0;
+    }
+
+    #les-populaires-dispos {
+    	flex-direction: column;
+    }
+
+    .galerie-2 {
+    	width: auto;
+	}
+
+	/* Hébergements à Marseille */
+
+	#hebergements-marseille {
+    width: auto;  
+    border-radius: 0;
+    background-color: #ffffff;
+	}
+
+	#hebergement-marseille-dispos {
+	display: flex;
+    flex-direction: column;
+	}
+
+	.galerie {
+    width: auto;
+    }
+
+	/* Activités Marseille mobile */
+
+	.galerie-3 {
+    height: 212px;
+    width: auto;
+	}
+
+	.galerie-3 img {
+		height: 80%;
+	}
+
+	.galerie-3-double {
+		width: auto;
+		height: 450px;
+	}
+
+	/* Footer mobile */
+
+	footer {
+	display: flex;
+	flex-direction: column;
+	}
+}
