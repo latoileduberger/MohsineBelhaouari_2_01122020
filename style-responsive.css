@@ -14,6 +14,7 @@
 
 	#hebergements-marseille {
 		width: auto;
+		padding-bottom: 0;
 	}
 
 	/* Les populaires */
@@ -164,6 +165,7 @@
     width: auto;  
     border-radius: 0;
     background-color: #ffffff;
+    padding-bottom: 0;
 	}
 
 	#hebergement-marseille-dispos {
@@ -176,6 +178,10 @@
     }
 
 	/* Activités Marseille mobile */
+
+	#activites-marseille h2 {
+		margin-top: -25px;
+	}
 
 	.galerie-3 {
     height: 212px;
