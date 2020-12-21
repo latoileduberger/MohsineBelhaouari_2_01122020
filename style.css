@@ -36,18 +36,17 @@ p {
 	font-size: 12px;
 }
 
-.fa, .far, .fas {
+.fa, .fas {
 	font-size: 13px;
 }
 
-.fas
+.fa-star
 {
 	color: #0065FC;
 }
 
-.far {
+.false.fa-star {
 	color: #d9d9d9;
-	font-weight: 900;
 }
 
 ul
