@@ -137,9 +137,12 @@ form {
 	border-radius: 0 10px 10px 0;
 	background-color: #0065FC;
 	color: #ffffff;
-	font-size: 14px;
-	font-weight: bold;
 	cursor: pointer;
+}
+
+input::placeholder {
+  color: #000000;
+  font-size: 14px;
 }
 
 #form-mobile {
