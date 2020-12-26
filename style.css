@@ -1,26 +1,20 @@
-/* Eléments principaux de la page */
-
-body
-{
+body {
 	font-family: 'Raleway', sans-serif;
 	margin-left: 25px;
 	margin-right: 25px;
 	width: auto;
 }
 
-a
-{
+a {
 	text-decoration: none;
 	font-size: 14px;
 }
 
-p
-{
+p {
 	color: #020202;
 }
 
-h1, h2, h3
-{
+h1, h2, h3 {
 	color: #000000;
 }
 
@@ -40,8 +34,7 @@ p {
 	font-size: 13px;
 }
 
-.fas
-{
+.fas {
 	color: #0065FC;
 }
 
@@ -49,16 +42,14 @@ p {
 	color: #d9d9d9;
 }
 
-ul
-{
+ul {
 	list-style-type: none;
 }
 
 
 /* Header */
 
-#header
-{
+#header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -70,21 +61,18 @@ ul
 	display: none;
 }
 
-#reservia
-{
+#reservia {
 	display: none;
 }
 
-.logo img
-{
+.logo img {
 	width: 98px;
 	height: 47px;
 }
 
 /* Navigation */
 
-nav ul
-{
+nav ul {
 	display: flex;
 }
 
@@ -137,12 +125,13 @@ form {
 	border-radius: 0 10px 10px 0;
 	background-color: #0065FC;
 	color: #ffffff;
+	font-size: 14px;
 	cursor: pointer;
+	outline: none;
 }
 
 input::placeholder {
   color: #000000;
-  font-size: 14px;
 }
 
 #form-mobile {
