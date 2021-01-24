@@ -1,0 +1,466 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	width: auto;
+}
+
+a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+p {
+	color: #020202;
+}
+
+h1, h2, h3 {
+	color: #000000;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
+}
+
+.fa, .fas {
+	font-size: 13px;
+}
+
+.fas {
+	color: #0065FC;
+}
+
+.false.fa-star {
+	color: #d9d9d9;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/* Header */
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 25px;
+	margin-bottom: 40px;
+}
+
+#header-mobile {
+	display: none;
+}
+
+#reservia {
+	display: none;
+}
+
+.logo img {
+	width: 98px;
+	height: 47px;
+}
+
+.titre {
+	font-size: 20px;
+}
+
+/* Navigation */
+
+nav ul {
+	display: flex;
+}
+
+nav a
+{
+	color: #000000;
+	padding-left: 25px; 
+    padding-right: 25px;
+}
+
+nav a:hover
+{
+	color: #0065FC;
+	border-top: 2px solid #0065FC;
+	padding-top: 50px;
+}
+
+.inscrire {
+	color: #0065FC
+}
+
+/* Recherche */
+
+form {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.site-search {
+	font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #f2f2f2;
+    padding: 15px;
+    outline: none;
+}
+
+.fa-map-marker-alt {
+	font-size: 17px;
+	color: #000000;
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+	border-radius: 10px 0 0 10px;
+	background-color: #f2f2f2;
+}
+
+.recherche {
+	padding: 15px;
+	border: 1px solid #f2f2f2;
+	border-radius: 0 10px 10px 0;
+	background-color: #0065FC;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+	outline: none;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+#form-mobile {
+	display: none;
+}
+
+/* Texte presentation */
+
+#presentation {
+	font-size: 14px;
+	padding-left: 0;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+/* Filtre */
+
+#filtres
+{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.filtres:hover {
+	background-color: #f3f8ff;
+    transform: scale(1.015);
+}
+
+#filtres h3 {
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 35px;
+}
+
+#filtre-column {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.filtres
+{
+	border: 2px solid rgb(217, 217, 217);
+    border-radius: 30px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding-right: 15px;
+}
+
+.filtres i
+{
+	font-size: 20px;
+	margin: -2px;
+	margin-right: 15px;
+	padding: 15px;
+	border-radius: 30px;
+	background-color: #DEEBFF;
+}
+
+.filtres a {
+	color: #000000;
+}
+
+/* Information */
+
+#information
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 35px;
+	margin-left: 5px;
+}
+
+#information p {
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.fa-info
+{
+	border: 1px solid rgb(217, 217, 217);
+	border-radius: 100%;
+    padding: 8px;
+    width: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Hébergement à Marseille */
+
+#hebergements-marseille
+{
+    width: 59%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+#hebergements-marseille h2, h3, p, .icon-eval
+{
+	padding-left: 15px;
+}
+
+#hebergement-marseille-dispos
+{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.galerie 
+{
+    width: 29%;
+    height: 200px;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px 2px rgb(217, 217, 217);
+    background-color: #ffffff;
+}
+
+.galerie img 
+{
+    width: 100%;
+    height: 115px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+
+
+/* Les plus populaires */
+
+#les-populaires
+{
+    width: 29%;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+#les-populaires-dispos
+{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titre-icon-populaires
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 15px;
+}
+
+.fa-chart-line
+{
+	color: #000000;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+.galerie-2 
+{
+    width: 90%;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px 2px rgb(217, 217, 217);
+    background-color: #ffffff;
+}
+
+.galerie-2 img 
+{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+figure
+{
+	display: flex;
+	height: 145px;
+	margin: 0;
+}
+
+figcaption {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.nom-logements
+{
+	margin-top: 10px;
+}
+
+.prix-logements
+{
+	margin-top: -5px;
+}
+
+.icon-eval {
+	margin-top: -5px;
+}
+
+/* Hébergements à Marseille + Les plus poulaires */
+
+#hebergements-populaires
+{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+/* Activité */
+
+#activites-marseille h2 {
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+#activites-marseille-dispos
+{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+#activites-marseille-dispos h3
+{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.galerie-3
+{	
+	width: 23%;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(217, 217, 217);
+    background-color: #ffffff;
+}
+
+.galerie-3 img
+{
+	width: 100%;
+	height: 90%;
+	border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+/* Activité double */
+
+.galerie-3-double {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 23%;
+}
+
+.galerie-3-double-css
+{
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(217, 217, 217);
+    background-color: #ffffff;
+    height: 212px;
+}
+
+.galerie-3-double-css img
+{
+	width: 100%;
+	height: 80%;
+	border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+/* Footer */
+
+footer
+{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F2F2F2;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+#f-propos
+{
+    margin-right: 15%;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#f-hebergement
+{
+    margin-right: 15%;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#f-assistance
+{
+	margin-right: 10%;
+	line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3
+{
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+
+footer a 
+{
+	color: #020202;
+}
