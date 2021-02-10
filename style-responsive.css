@@ -1,4 +1,4 @@
-@media screen and (max-width: 1145px) {
+@media screen and (max-width: 1224px) {
 
 	/* Hébergements à Marseille + Les plus poulaires tablette */
 
@@ -14,7 +14,6 @@
 
 	#hebergements-marseille {
 		width: auto;
-		padding-bottom: 0;
 	}
 
 	/* Les populaires */
@@ -24,50 +23,21 @@
 		justify-content: space-evenly;
 	}
 
-	.galerie-2 {
-    	width: 29%;
-	}
-}
-
-@media screen and (max-width: 1120px) {
-
 	/* Activité */
 
 	.galerie-3 {
-    	width: 46%; 
+    	width: 48%; 
     	margin-bottom: 25px;
 	}
 
 	.galerie-3-double {
-    	width: 46%; 
+    	width: 48%; 
     	margin-bottom: 25px;
 	}
 }
 
-@media screen and (max-width: 935px) {
 
-	/* Filtre */
-
-	#filtres {
-	    display: flex;
-	    flex-direction: column;
-	    align-items: flex-start;
-    }
-
-	/* Footer */
-
-	footer {
-		justify-content: center;
-	}
-
-	#f-propos {
-    	margin-right: 65px;
-	}
-
-	#f-hebergement {
-    	margin-right: 65px;
-    }
-}
+/* ***************************************************************************************** */
 
 @media screen and (max-width: 760px) {
 
@@ -135,19 +105,24 @@
 	    margin-right: 10px;
 	}
 
+	/* Filtre */
+
+	#filtres {
+	    flex-direction: column;
+    }
+
 	/* Hébergements à Marseille + Les plus poulaires mobile */
 
 	#hebergements-populaires {
 		display: flex;
 		flex-direction: column-reverse;
-		margin-right: -25px;
-		margin-left: -25px;
+		margin-right: -20px;
+		margin-left: -20px;
 	}
 
 	/* Les plus poulaires mobile */
 
 	#les-populaires {
-	    width: auto;
 	    margin-bottom: 0;
 	    border-radius: 0;
     }
@@ -156,26 +131,17 @@
     	flex-direction: column;
     }
 
-    .galerie-2 {
-    	width: auto;
-	}
-
 	/* Hébergements à Marseille */
 
-	#hebergements-marseille {
-	    width: auto;  
-	    border-radius: 0;
+	#hebergements-marseille { 
 	    background-color: #ffffff;
 	    padding-bottom: 0;
 	}
 
-	#hebergement-marseille-dispos {
-		display: flex;
-	    flex-direction: column;
-	}
-
 	.galerie {
     	width: auto;
+    	margin-right: 0;
+    	margin-left: 0;
     }
 
 	/* Activités Marseille mobile */
@@ -185,23 +151,28 @@
 	}
 
 	.galerie-3 {
-	    height: 212px;
 	    width: auto;
 	}
 
 	.galerie-3 img {
-		height: 80%;
+		height: 135px;
 	}
 
 	.galerie-3-double {
 		width: auto;
-		height: 450px;
+	}
+
+	.galerie-3-double-css-1 img, .galerie-3-double-css-2 img, .galerie-3-double-css-3 img, .galerie-3-double-css-4 img {
+		height: 135px;
+	}
+
+	.galerie-3-double-css-1, .galerie-3-double-css-3 {
+		margin-bottom: 25px; 
 	}
 
 	/* Footer mobile */
 
 	footer {
-		display: flex;
 		flex-direction: column;
 	}
 }
