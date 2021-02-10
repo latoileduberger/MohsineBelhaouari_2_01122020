@@ -93,7 +93,7 @@ nav a:hover
 {
 	color: #0065FC;
 	border-top: 2px solid #0065FC;
-	padding-top: 50px;
+	padding-top: 42px;
 }
 
 .inscrire {
@@ -203,7 +203,7 @@ input::placeholder {
 #information
 {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	margin-bottom: 35px;
 	margin-left: 5px;
 }
@@ -217,10 +217,11 @@ input::placeholder {
 {
 	border: 1px solid rgb(217, 217, 217);
 	border-radius: 100%;
-    padding: 8px;
-    width: 12px;
-    font-size: 12px;
+    padding: 5px;
+    width: 9px;
+    font-size: 10px;
     text-align: center;
+    margin-top: 10px;
 }
 
 /* Hébergement à Marseille */
