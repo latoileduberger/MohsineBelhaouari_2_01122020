@@ -3,8 +3,8 @@
 	/* Hébergements à Marseille + Les plus poulaires tablette */
 
 	#hebergements-populaires {
-	display: flex;
-	flex-direction: column-reverse;
+		display: flex;
+		flex-direction: column-reverse;
 	}
 
 	#les-populaires {
@@ -53,9 +53,6 @@
 	    flex-direction: column;
 	    align-items: flex-start;
     }
-}
-
-@media screen and (max-width: 935px) {
 
 	/* Footer */
 
@@ -64,11 +61,11 @@
 	}
 
 	#f-propos {
-    margin-right: 65px;
+    	margin-right: 65px;
 	}
 
-#f-hebergement {
-    margin-right: 65px;
+	#f-hebergement {
+    	margin-right: 65px;
     }
 }
 
@@ -105,9 +102,9 @@
 	}
 
 	nav a:hover {
-	border-top: none;
-	border-bottom: 3px solid #0065FC;
-	padding-bottom: 15px;
+		border-top: none;
+		border-bottom: 3px solid #0065FC;
+		padding-bottom: 15px;
 	}
 
 	/* Search */
@@ -121,13 +118,13 @@
 	}
 
 	.fa-search-location {
-	border: 1px solid #f2f2f2;
-	padding: 15px;
-	border-radius: 10px 10px 10px 10px;
-	background-color: #0065FC;
-	color: #ffffff;
-	font-size: 17px;
-	cursor: pointer;
+		border: 1px solid #f2f2f2;
+		padding: 15px;
+		border-radius: 10px 10px 10px 10px;
+		background-color: #0065FC;
+		color: #ffffff;
+		font-size: 17px;
+		cursor: pointer;
 	}
 
 	button {
@@ -137,18 +134,18 @@
 	/* Hébergements à Marseille + Les plus poulaires mobile */
 
 	#hebergements-populaires {
-	display: flex;
-	flex-direction: column-reverse;
-	margin-right: -25px;
-	margin-left: -25px;
+		display: flex;
+		flex-direction: column-reverse;
+		margin-right: -25px;
+		margin-left: -25px;
 	}
 
 	/* Les plus poulaires mobile */
 
 	#les-populaires {
-    width: auto;
-    margin-bottom: 0;
-    border-radius: 0;
+	    width: auto;
+	    margin-bottom: 0;
+	    border-radius: 0;
     }
 
     #les-populaires-dispos {
@@ -162,19 +159,19 @@
 	/* Hébergements à Marseille */
 
 	#hebergements-marseille {
-    width: auto;  
-    border-radius: 0;
-    background-color: #ffffff;
-    padding-bottom: 0;
+	    width: auto;  
+	    border-radius: 0;
+	    background-color: #ffffff;
+	    padding-bottom: 0;
 	}
 
 	#hebergement-marseille-dispos {
-	display: flex;
-    flex-direction: column;
+		display: flex;
+	    flex-direction: column;
 	}
 
 	.galerie {
-    width: auto;
+    	width: auto;
     }
 
 	/* Activités Marseille mobile */
@@ -184,8 +181,8 @@
 	}
 
 	.galerie-3 {
-    height: 212px;
-    width: auto;
+	    height: 212px;
+	    width: auto;
 	}
 
 	.galerie-3 img {
@@ -200,7 +197,7 @@
 	/* Footer mobile */
 
 	footer {
-	display: flex;
-	flex-direction: column;
+		display: flex;
+		flex-direction: column;
 	}
 }
