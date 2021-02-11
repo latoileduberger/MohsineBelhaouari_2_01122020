@@ -209,7 +209,7 @@ input::placeholder {
 
 #information p {
 	padding-left: 10px;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .fa-info
@@ -367,12 +367,6 @@ figcaption {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 60px;
-}
-
-#activites-marseille-dispos h3
-{
-	margin-top: 10px;
-	margin-left: 5px;
 }
 
 .galerie-3
