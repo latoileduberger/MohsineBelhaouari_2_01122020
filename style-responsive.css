@@ -1,4 +1,4 @@
-@media screen and (max-width: 1224px) {
+@media screen and (max-width: 1199px) {
 
 	/* Hébergements à Marseille + Les plus poulaires tablette */
 
@@ -60,8 +60,8 @@
 	}
 
 	#menu-mobile {
-		margin-left: -25px;
-    	margin-right: -25px;
+		margin-left: -20px;
+    	margin-right: -20px;
 	}
 
 	nav ul {
@@ -87,6 +87,10 @@
 		display: flex;
 	}
 
+	.site-search {
+		width: 100%;
+	}
+
 	.fa-search-location {
 		border: 1px solid #f2f2f2;
 		padding: 15px;
@@ -101,15 +105,19 @@
 		margin-left: -30px;
 	}
 
-	.filtres {
-	    margin-right: 10px;
-	}
-
 	/* Filtre */
 
 	#filtres {
 	    flex-direction: column;
     }
+
+    .filtres {
+	    margin-right: 10px;
+	}
+
+	.romantique-mobile {
+		margin-right: 40px;
+	}
 
 	/* Hébergements à Marseille + Les plus poulaires mobile */
 

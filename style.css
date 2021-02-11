@@ -182,7 +182,7 @@ input::placeholder {
     border-radius: 30px;
     margin-right: 25px;
     margin-bottom: 25px;
-    padding-right: 10px;
+    padding-right: 11px;
 }
 
 .filtres i
@@ -204,8 +204,7 @@ input::placeholder {
 {
 	display: flex;
 	align-items: flex-start;
-	margin-bottom: 35px;
-	margin-left: 5px;
+	margin-bottom: 30px;
 }
 
 #information p {
@@ -311,7 +310,7 @@ input::placeholder {
 .galerie-2 img 
 {
     width: 40%;
-    height: 135px;
+    height: 130px;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
 }
@@ -368,12 +367,6 @@ figcaption {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 60px;
-}
-
-#activites-marseille-dispos h3
-{
-	margin-top: 10px;
-	margin-left: 5px;
 }
 
 .galerie-3
@@ -476,7 +469,7 @@ footer
 
 #f-propos
 {
-    margin-right: 15%;
+    margin-right: 20%;
     line-height: 30px;
     display: flex;
     flex-direction: column;
@@ -484,7 +477,7 @@ footer
 
 #f-hebergement
 {
-    margin-right: 15%;
+    margin-right: 20%;
     line-height: 30px;
     display: flex;
     flex-direction: column;
