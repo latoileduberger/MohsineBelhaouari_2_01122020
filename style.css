@@ -204,7 +204,7 @@ input::placeholder {
 {
 	display: flex;
 	align-items: flex-start;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 	margin-left: 5px;
 }
 
@@ -301,7 +301,7 @@ input::placeholder {
 .galerie-2 
 {
     padding: 4px;
-    margin: 10px;
+    margin: 8px;
     border-radius: 20px;
     box-shadow: 2px 2px 15px 2px rgb(217, 217, 217);
     background-color: #ffffff;
@@ -311,7 +311,7 @@ input::placeholder {
 .galerie-2 img 
 {
     width: 40%;
-    height: 135px;
+    height: 130px;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
 }
