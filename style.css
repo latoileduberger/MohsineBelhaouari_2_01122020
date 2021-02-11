@@ -300,7 +300,7 @@ input::placeholder {
 .galerie-2 
 {
     padding: 4px;
-    margin: 8px;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: 2px 2px 15px 2px rgb(217, 217, 217);
     background-color: #ffffff;
@@ -475,7 +475,7 @@ footer
 
 #f-propos
 {
-    margin-right: 15%;
+    margin-right: 20%;
     line-height: 30px;
     display: flex;
     flex-direction: column;
@@ -483,7 +483,7 @@ footer
 
 #f-hebergement
 {
-    margin-right: 15%;
+    margin-right: 20%;
     line-height: 30px;
     display: flex;
     flex-direction: column;
