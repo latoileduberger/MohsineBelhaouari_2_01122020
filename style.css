@@ -205,12 +205,11 @@ input::placeholder {
 	display: flex;
 	align-items: flex-start;
 	margin-bottom: 30px;
-	margin-left: 5px;
 }
 
 #information p {
 	padding-left: 10px;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .fa-info
